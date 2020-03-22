@@ -37,6 +37,12 @@ ubuntu Server Setup configuration and installation setup
 * Restart the apache2 service
 * Reference: https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-18-04-quickstart
 
+#### DNS Setup 
+* Reference: https://medium.com/progress-on-ios-development/connecting-an-ec2-instance-with-a-godaddy-domain-e74ff190c233
+
+#### Creating Sub Domain in GoDaddy
+* Reference: https://in.godaddy.com/help/create-a-subdomain-4080
+
 
 
 
