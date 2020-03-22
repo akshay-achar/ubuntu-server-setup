@@ -22,6 +22,7 @@ ubuntu Server Setup configuration and installation setup
 * Outbound rules are the rules for our server accessing outside URLs.
 * Always only add my IP  in the ssh, http, https in the inbound rules for the initial setup.
 
+
 #### Note for User data setup while instance creation: 
 * The commands should start with bin/bash
 * The commands should have -y for install
