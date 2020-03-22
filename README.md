@@ -44,6 +44,12 @@ ubuntu Server Setup configuration and installation setup
 * Reference: https://in.godaddy.com/help/create-a-subdomain-4080
 
 
+#### SSL Certification Generation from LetsEncrypt
+* Prerequisite:
+     * Virtual host setup should be created for 80 port 
+     * DNS should be updated in the Domain Manager and 80 port access should be kept open ( Since for verification for access, letsecnrypt will create a file in our server and access it )
+* Reference: https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubuntu-18-04
+
 
 
 
