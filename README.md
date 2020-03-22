@@ -65,7 +65,13 @@ ubuntu Server Setup configuration and installation setup
     * Make the .sh file as executable from the command sudo chmod +x certificate-generation.sh 
     * Execute the command with the parameter of the domain name (./certificate-generation.sh akshaykarkala.com)
 
-
+#### Basic Docker Setup
+* Docker setup from the shell script from docker 
+```
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
+sudo docker run hello-world 
+```
 
 
 
