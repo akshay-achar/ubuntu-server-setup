@@ -48,6 +48,14 @@ ubuntu Server Setup configuration and installation setup
 * Prerequisite:
      * Virtual host setup should be created for 80 port 
      * DNS should be updated in the Domain Manager and 80 port access should be kept open ( Since for verification for access, letsecnrypt will create a file in our server and access it )
+* Commands: 
+     ```
+     sudo add-apt-repository ppa:certbot/certbot
+     sudo apt install python-certbot-apache
+     sudo apache2ctl configtest
+     sudo systemctl reload apache2
+     sudo certbot --apache -d your_domain -d www.your_domain
+     ```
 * Reference: https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubuntu-18-04
 
 
