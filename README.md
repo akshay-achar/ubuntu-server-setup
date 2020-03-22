@@ -34,6 +34,7 @@ ubuntu Server Setup configuration and installation setup
 * Add a basic contents in the /var/www/html/index.html
 * Add the virtual host config details in the /etc/apache2/sites-available folder from virtual-host directory files 
 * Restart the apache2 service
+* Reference: https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-18-04-quickstart
 
 
 
