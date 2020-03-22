@@ -21,4 +21,4 @@ ubuntu Server Setup configuration and installation setup
 * Inbound rules are the rules for the outside request accessing our server.
 * Outbound rules are the rules for our server accessing outside URLs.
 * Always only add my IP  in the ssh, http, https in the inbound rules for the initial setup.
-* Reference: https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-18-04-quickstart
+
