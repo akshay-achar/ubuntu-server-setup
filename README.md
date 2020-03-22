@@ -21,3 +21,22 @@ ubuntu Server Setup configuration and installation setup
 * Inbound rules are the rules for the outside request accessing our server.
 * Outbound rules are the rules for our server accessing outside URLs.
 * Always only add my IP  in the ssh, http, https in the inbound rules for the initial setup.
+
+#### Note for User data setup while instance creation: 
+* The commands should start with bin/bash
+* The commands should have -y for install
+* The log files will be in the /var/logs/cloud-init-output.log
+
+
+#### Basic Virtual host setup 
+* Apache2 will be installed while creating the server from the user data.
+* Create a file index.html in the /var/www/html folder.
+* Add a basic contents in the /var/www/html/index.html
+* Add the virtual host config details in the /etc/apache2/sites-available folder from virtual-host directory files 
+* Restart the apache2 service
+
+
+
+
+
+
