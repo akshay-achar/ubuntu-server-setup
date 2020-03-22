@@ -28,6 +28,8 @@ ubuntu Server Setup configuration and installation setup
 * The commands should have -y for install
 * The log files will be in the /var/logs/cloud-init-output.log
 
+#### New User Creation
+* Reference: https://aws.amazon.com/premiumsupport/knowledge-center/new-user-accounts-linux-instance/
 
 #### Basic Virtual host setup 
 * Apache2 will be installed while creating the server from the user data.
