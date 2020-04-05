@@ -74,11 +74,11 @@ sudo docker run hello-world
 ```
 
 * Docker setup from the shell script from the project 
-      * Download the docker/docker-basic-setup.sh 
-      * Make the .sh file as executable from the command sudo chmod +x docker-basic-setup.sh 
-      * Execute the shell script ./docker-basic-setup.sh 
-      * Docker user can be made non root user by running the command sudo usermod -aG docker your-user
-      * Docker setup can be validated by executing docker run hello-world command
+    * Download the docker/docker-basic-setup.sh 
+    * Make the .sh file as executable from the command sudo chmod +x docker-basic-setup.sh 
+    * Execute the shell script ./docker-basic-setup.sh 
+    * Docker user can be made non root user by running the command sudo usermod -aG docker your-user
+    * Docker setup can be validated by executing docker run hello-world command
       
 
 
