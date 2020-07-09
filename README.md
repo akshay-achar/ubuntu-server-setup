@@ -72,14 +72,20 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 sudo docker run hello-world 
 ```
+* Reference: https://docs.docker.com/install/linux/docker-ce/ubuntu/
 
 * Docker setup from the shell script from the project 
-    * Download the docker/docker-basic-setup.sh 
-    * Make the .sh file as executable from the command sudo chmod +x docker-basic-setup.sh 
-    * Execute the shell script ./docker-basic-setup.sh 
-    * Docker user can be made non root user by running the command sudo usermod -aG docker your-user
-    * Docker setup can be validated by executing docker run hello-world command
-      
-
-
-
+      * Download the docker/docker-basic-setup.sh 
+      * Make the .sh file as executable from the command sudo chmod +x docker-basic-setup.sh 
+      * Execute the shell script ./docker-basic-setup.sh 
+      * Docker user can be made non root user by running the command sudo usermod -aG docker your-user
+      * Docker setup can be validated by executing docker run hello-world command
+      * Reference: https://docs.docker.com/install/linux/docker-ce/ubuntu/   
+  
+#### Basic Jenkins Setup
+  * The installation script is added in script/jenkins.sh file
+  * References: 
+     * https://medium.com/@Marklon/how-to-install-jenkins-on-ubuntu-16-04-on-aws-e584c45c2684
+     * https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-18-04
+     * https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-18-04#installing-specific-versions-of-openjdk
+ 
