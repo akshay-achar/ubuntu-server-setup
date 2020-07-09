@@ -81,3 +81,11 @@ sudo docker run hello-world
       * Docker user can be made non root user by running the command sudo usermod -aG docker your-user
       * Docker setup can be validated by executing docker run hello-world command
       * Reference: https://docs.docker.com/install/linux/docker-ce/ubuntu/   
+  
+#### Basic Jenkins Setup
+  * The installation script is added in script/jenkins.sh file
+  * References: 
+     * https://medium.com/@Marklon/how-to-install-jenkins-on-ubuntu-16-04-on-aws-e584c45c2684
+     * https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-18-04
+     * https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-18-04#installing-specific-versions-of-openjdk
+ 
